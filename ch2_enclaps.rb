@@ -14,11 +14,11 @@
 =end
 
 class Dog
-  def set_name=(name)
-    @name = name
+  def name=(value)
+    @name = value
   end
 
-  def get_name
+  def name
     @name
   end
 
@@ -32,6 +32,29 @@ class Dog
 end
 
 popy = Dog.new
-popy.set_name = "POPPY"
+popy.name = "POPPY"
 popy.talk
 popy.move "food bowl"
+
+grey = Dog.new
+grey.name = ("grei")
+grey.talk
+grey.move ("home")
+
+puts grey.name
+
+class Bird
+  attr_accessor :name
+  attr_accessor :age
+  attr_accessor :color, :weight
+  #it representation for 4 methods
+
+  def move
+    puts "#{@name}: #{@age} years old, will fly"
+  end
+end
+
+flap = Bird.new
+flap.name = "Flappy"
+flap.age = 3
+flap.move
