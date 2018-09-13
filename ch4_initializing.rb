@@ -3,6 +3,10 @@
 
 class Employee
   attr_reader :name, :salary
+  def initialize
+    @name = "Anonymous"
+    @salary = 0.0
+  end
 
   def name=(name)
     if name == ""
@@ -22,6 +26,11 @@ class Employee
     puts "Name: #{@name}"
     pay_for_period = format("%.2f", (@salary / 365.0) * 14)
     puts "Pay this Period: #{pay_for_period}"
+  end
+
+  def pay_stub
+    puts "#{@name}"
+    puts "#{@salary}"
   end
 end
 
@@ -46,3 +55,16 @@ puts Employee.class
 #format for number printing
 
 puts format("The rounded to two decimal places of: %f is %.2f", 3.141516, 3.141516)
+puts "--------------"
+
+q = Employee.new
+q.pay_stub
+q.print_pay_stub
+#there are 2 blank line in the end of output, the @name, @salary still not assigned
+# 'nil': represent for 'nothing'
+
+#they say '/' -division:  is a method and almost mathermatic expression in ruby are the method
+#---- 3 + 5 equal to 3.+(5)
+
+#and the error will be modify by initialize method, where it's the constructor in OOP or not?
+#ok.got it!
