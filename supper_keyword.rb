@@ -75,3 +75,6 @@ fr.say_hello "Quoc"
 # we can pass the arguments into 'super' keyword like the method
 
 #but 1 differ is:
+puts "------------------"
+puts Friend.superclass
+puts Person.superclass
