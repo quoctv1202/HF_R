@@ -98,3 +98,4 @@ affe.print_pay_stub
 
 alex = HourlyEmployee.security_guard("Alex Paul")
 alex.print_pay_stub
+puts "---------***---------"
