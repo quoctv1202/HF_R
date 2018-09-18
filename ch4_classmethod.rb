@@ -1,3 +1,14 @@
+class MyClass
+  def self.classmethod(p1, p2)
+    puts "This is the class method!"
+    puts "Your params : #{p1} and #{p2}"
+  end
+end
+
+MyClass.classmethod("Quoctv1202", "RoR")
+puts "------------------------------"
+#----This is complete code for chap 4-----
+
 class Employee
   attr_reader :name, :age
 
@@ -47,7 +58,27 @@ class SalariedEmployee < Employee
 end
 
 class HourlyEmployee < Employee
+  def self.security_guard(name)
+    HourlyEmployee.new(name, 19.10, 33)
+  end
+  def self.cashier(name)
+    HourlyEmployee.new(name, 20.35, 34)
+  end
   attr_reader :hourly_wage, :total_time
+
+  def hourly_wage=(hourly_wage)
+    if hourly_wage < 0
+      raise "This hourly_wage: #{hourly_wage} is invalid!"
+    end
+    @hourly_wage = hourly_wage
+  end
+
+  def total_time=(total_time)
+    if total_time < 0
+      raise "This total_time: #{total_time} is invalid!"
+    end
+    @total_time = total_time
+  end
 
   def initialize(name = "Anonymous", hourly_wage = 0.0, total_time = 0)
     super(name)
@@ -57,10 +88,13 @@ class HourlyEmployee < Employee
 
   def print_pay_stub
     self.print_name
+    pay_for_period = hourly_wage * total_time * 2
+    puts format("Pay for this period: %.2f", pay_for_period)
   end
 end
 
-salaried = SalariedEmployee.new("Jan", 1500)
-salaried.print_pay_stub
+affe = SalariedEmployee.new("Affe Alan", 25000)
+affe.print_pay_stub
 
-puts "---------------"
+alex = HourlyEmployee.security_guard("Alex Paul")
+alex.print_pay_stub
