@@ -111,4 +111,6 @@ t.odometer = 100
 t.gas_used = 12
 puts t.odometer
 puts t.gas_used
-puts t.mileage
+#puts t.mileage
+
+puts t.class.name
