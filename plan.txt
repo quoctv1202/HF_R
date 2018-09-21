@@ -1,0 +1,134 @@
+[Batch 11: Sep 17 2018 - Nov 16 2018]
+
+[Practice 5 greetings and basic communication statements in Japanese being used everyday]
+● Ohayo Gozaimasu: good morning
+● Konichiwa: good afternoon
+● Konbanwa: good evening
+● Otsukare Samadesu: you've worked hard - bạn đã vất vả rồi (say when leaving office)
+● Arigatou Gozaimasu: thank you
+
+[Project Management]
+https://docs.google.com/spreadsheets/d/1FGXU3192D2FcpKXH1kH-n40TBdbsmG_C6fMc_JmHGZE/edit#gid=0  Preview
+
+[Pull Requests Tracking System]
+https://prts.framgia.vn/
+
+[CI Config]
+https://github.com/framgia-education/ci-config/tree/rubocop/ruby
+
+[Q&A]
+● Question: https://goo.gl/JQY7O6
+● Answer: https://goo.gl/VOsWIL
+
+[Training schedule]
+https://goo.gl/oavg80
+
+[Setup Manual]
+● Guide: https://goo.gl/x9Iwq8
+● Ref: https://gorails.com/setup/ubuntu/16.04
+
+[GIT lecture]
+● Git Flow in Framgia: https://drive.google.com/file/d/0B7TW7QaRS-GXY2VRQUlPaUZkNHc/view  Preview
+● Framgia Git Training: https://docs.google.com/presentation/d/13UFE6PupQxlT_XAOx6AJJUXJCjOjkum8tOjj96dr37E/edit#slide=id.p3  Preview
+
+[Ruby book in 2 days]
+https://raw.githubusercontent.com/jay3126/various_imp_ebooks/master/the_ruby_programming_language.pdf
+
+[Rails tutorial in 8 days]
+https://www.railstutorial.org/book
+
+[MySQL]
+https://goo.gl/JCc8tp
+
+[Coding Convention]
+https://github.com/framgia/coding-standards/blob/master/vn/README.md
+
+[List of techniqes are Rails Advance]			
+[Rails Advance 1]
+1. Nested Attribute (fields_for, reject_if, allow_destroy, ...)
+2. Batch Update
+3. Form_for
+4. Call back function
+5. Macro (generate, rake, spring, ...)
+6. Ajax (Rails ajax, jQuery ajax)
+7. Seed
+8. RESTful (http://www.infoq.com/articles/rest-introduction) 
+9. Association (has_many/has_one/belongs_to)
+10. Transaction
+11. Resources, Nested Resources
+12. Resource
+13. Export CSV, Excel
+14. Rake task
+15. CSRF Protection
+16. Coffee
+17. Concerns
+18. Scope
+19. I18n (mutil language, dictionary, time format, number format, ...)
+20. Search form, filter form
+21. Gem Config (https://github.com/railsconfig/config)
+22. Eager Loading Associations
+23. Validation
+24. Environment Variable
+25. MVC
+26. Module mixin
+27. Proc / Lambda
+28. Debug Javascipt code
+29. Jquery selector
+30. CSS selector
+31. Ruby Nil Object
+
+[Rails Advance 2]
+1. Gem Devise
+2. Gem CanCanCan
+3. Gem Ransack
+4. Background job: sidekiq, resque
+5. Cronjob: whenever, delayed job
+6. Unit Test (Rspec)
+7. Metaprogramming (send, eval, class_eval, ...)
+8. Authenticate via Facebook, Twitter, Google
+9. Social button share (https://github.com/huacnlee/social-share-button)
+10. Gem paranoia (https://github.com/rubysherpas/paranoia)
+11. Gem public_activity
+12. Simple form (https://github.com/plataformatec/simple_form)
+13. Kaminari (https://github.com/amatsuda/kaminari)
+14. Friendly_id (https://github.com/norman/friendly_id)
+15. Chatwork (https://github.com/asonas/chatwork-ruby)
+
+[Rails Advance 3]
+1. API
+2. Haml (https://github.com/haml/haml)
+3. WebSocket
+4. Form Object
+5. Service Object
+6. Query Object
+7. Caching 
+8. Fulltext search
+9. Pretty URL
+
+[RSpec Test]
+1. Homepage: http://rspec.info/
+Github: https://github.com/rspec/rspec
+
+2. Document
+https://relishapp.com/rspec
+http://www.relishapp.com/rspec/rspec-expectations/v/3-2/docs/built-in-matchers/type-matchers
+
+3. Test style guide
+English version: https://github.com/framgia/coding-standards/blob/master/eng/rails/test.md
+Vietnamese version: https://github.com/framgia/coding-standards/blob/master/vn/rails/test.md
+
+4. Advanced tracking code coverage
+https://github.com/colszowka/simplecov
+
+5. Some Gems
+https://github.com/thoughtbot/shoulda-matchers
+
+[Timesheet]
+https://docs.google.com/spreadsheets/d/1N5-HOxRS7gC-vFjgbtpgcXzOuWrCK5vYf_6Hwcywpbk/edit#gid=2024083948  Preview
+
+[Training Management System]
+- http://education.framgia.vn
+- Manual: https://drive.google.com/drive/folders/0ByAEFa58enkkMmFJcFd6bWpIQzg  Preview
+
+[Trainee daily report]
+https://drive.google.com/drive/u/0/folders/1i2W3GfoLawPecnoBbuT97SI8pzx75xLZ  Preview
