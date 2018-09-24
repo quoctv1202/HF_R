@@ -25,3 +25,7 @@ black.move("it's home")
   -it will lives as long as the instance does 
   -it start with @ (at) symbol
 =end
+
+p black
+puts black.inspect
+puts black.to_s
