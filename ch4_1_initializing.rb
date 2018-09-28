@@ -3,6 +3,7 @@
 
 class Employee
   attr_reader :name, :salary
+
   def initialize
     @name = "Anonymous"
     @salary = 0.0
@@ -68,3 +69,7 @@ q.print_pay_stub
 
 #and the error will be modify by initialize method, where it's the constructor in OOP or not?
 #ok.got it!
+puts "-------------"
+
+a = Employee.new
+a.print_pay_stub

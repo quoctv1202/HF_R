@@ -1,0 +1,84 @@
+
+[info]My daily report 26/09/2018
+
+[title]Actual work[/title]
+- Task 1
+- Task 2
+- ...
+[title]Next day's plan:[/title] - Task 1
+- Task 2
+- ...
+[title]Problems:[/title]
+-
+[/info]
+
+
+sublimetext
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 15,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		80
+	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}
+
+VScode
+{
+    "explorer.confirmDelete": false,
+    "editor.tabSize": 2,
+    "explorer.confirmDragAndDrop": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
+    "javascript.format.enable": false,
+    "javascript.format.insertSpaceAfterCommaDelimiter": false,
+    "javascript.format.insertSpaceAfterConstructor": false,
+    "[ruby]": {
+        "editor.formatOnSave": false
+    },
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Monokai Dimmed",
+}
+
+
+Thông báo sử dụng hệ thống ReviewBoard để quản lý pull request (PR)
+Các bạn đăng nhập vào trang https://reviewboard.herokuapp.com/ bằng tài khoản Github của mình.
+
+1. Cài đặt:
+- Bước 1: Tại mục Settings, chọn kết nối với chatwork (bắt buộc).
+- Bước 2: Vẫn tại mục Settings, chọn Room tương ứng với Box chatwork của mình và Update (bắt buộc)
+Với các bạn thì box chat là: [edu][Handico] Ruby Open Education
+- Bước 3: Với Repository cá nhân
+       3.1 Tại Settings chọn "Manage repositories on GitHub"
+       3.2 Tại Github chọn tài khoản tương ứng
+       3.3 Tại Github chọn repository cần cài ---> Install
+
+2. Sử dụng
+Từ bây giờ mỗi khi gửi pull request, các bạn sẽ làm theo các bước sau:
+- Khi tạo pull xong thì comment đầu tiên vào pull là pull này thực hiện chức năng gì
+- Sau đó comment thứ 2 với nội dung là "ready" (tức là OK rồi ae chi review đê)
+(Khi này trainer sẽ vào review pr của các bạn có trạng thái READY)
+- Sử dụng hệ thống ReviewBoard để quản lý các pull của mình, mọi người có thể thấy các trạng thái của pull trên đó nhé
+- Nếu có  thì bạn sửa, sau khi sửa xong lại comment vào pull: "ready"
+
+Ngoài ra ReviewBoard tự động ghi nhận số PR được merged của mỗi bạn,
+vì vậy vào chiều T6 hàng tuần chị [To:1818111] Nguyen Thi Huong sẽ xem xét những bạn nào ở TOP 3 thì có quà nhé! 
+Mọi người đua TOP vui vẻ   
